@@ -157,7 +157,7 @@ function sendEmail(event) {
 	var subject = document.getElementById('subject').value;
 	var message = document.getElementById('message').value;
 
-	var mailtoLink = `mailto:ianmutugi91@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent('First Name: ' + fname + '\nLast Name: ' + lname + '\nEmail: ' + email + '\nMessage: ' + message)}`;
+	var mailtoLink = `mailto:kinibrown3@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent('First Name: ' + fname + '\nLast Name: ' + lname + '\nEmail: ' + email + '\nMessage: ' + message)}`;
 
 	window.location.href = mailtoLink; // Redirect to the mailto link
 }
